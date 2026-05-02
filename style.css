@@ -21,7 +21,14 @@
 
 @font-face{
     font-family: 'Playfair Display';
-    src: url('PlayfairDisplay.ttf')
+    src: url('PlayfairDisplay.ttf');
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Playfair Display';
+    src: url('PlayfairDisplay-Italic.ttf');
+    font-style: italic;
 }
 
 @font-face{
@@ -220,7 +227,8 @@ body > *{
     margin-top:20px;
     margin-bottom:30px;
     background-color: rgb(13, 59, 114);
-    width:200px;
+    width:240px;
+    max-width:95vw;
     gap:0px;
 }
 
